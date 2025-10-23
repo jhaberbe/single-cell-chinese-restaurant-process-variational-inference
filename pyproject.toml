@@ -1,0 +1,18 @@
+[project]
+name = "vi-chinese-restaurant-process"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chinese-restauraunt-process",
+    "ipykernel>=7.0.1",
+    "pyro-ppl>=1.9.1",
+    "scanpy>=1.11.5",
+    "seaborn>=0.13.2",
+    "torch>=2.9.0",
+    "tqdm>=4.67.1",
+]
+
+[tool.uv.sources]
+chinese-restauraunt-process = { git = "https://github.com/jhaberbe/chinese_restaurant_process" }
